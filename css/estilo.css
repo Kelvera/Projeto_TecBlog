@@ -29,6 +29,7 @@ body {
 #area-principal {
   width: 920px;
   margin: 0 auto;
+  padding: 15px;
 }
 
 #area-postagens,
@@ -52,6 +53,18 @@ body {
   background: white;
 }
 
+.conteudo-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+}
+
 #rodape {
   clear: both;
   text-align: center;
@@ -67,13 +80,23 @@ a {
 
 a:link,
 a:visited {
-  color: #fff;
-  padding: 8px;
+  color: #f7b600;
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
   color: #430081;
   background: #fff;
+  text-decoration: none;
 }
 
 /* Formatações em geral */
@@ -83,6 +106,24 @@ h1 {
   font-size: 2.5em;
 }
 
+h2 {
+  color: #8000f7;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+
 .branco {
   color: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
 }
